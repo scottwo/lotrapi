@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="lotrApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="http://www.theguardiansofgondor.com/img/ring.png" />
+        <link rel="stylesheet" href="components/angular-material/angular-material.css" />
+        <link rel="stylesheet" href="components/angular-material/angular-material.layouts.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <title></title>
+    </head>
+
+    <body ng-controller="wikiaController">
+        <div class="container">
+            <header layout="row" class="header">
+                <div flex="66">Logo</div>
+                <div flex="33">Nav</div>
+            </header>
+            <div class="content">
+                <div class="site-title">
+                    <h1 class="md-display-3">lotrapi: The Lord Of The Rings API!!!</h1>
+                    <h3 class="md-display-1 sub-heading">Your source for easily-accessible greater Lotr data</h3>
+                </div>
+                <div class="apiDemoBox">
+                    <div class="inputBox" layout="row">
+                        <h3 flex="25">http://api.lotrapi.com/</h3>
+                        <input placeholder="people/1" flex="50"/>
+                        <md-button class="md-button md-raised md-cornered" flex="10">Query API</md-button>
+                    </div>
+                    <div class="responseBox">
+                        <!--Demo response that actually reacts to how they change the input above-->
+                    </div>
+                </div>
+                <div class="apiExplanation" layout="row">
+                    <div flex="33" class="explanation-box">
+                        <div class="why">
+                            <div>Why?</div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div flex="33" class="explanation-box">
+                        <div class="how">
+                            <div>How to use?</div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div flex="33" class="explanation-box">
+                        <div class="aboutme">
+                            <div>About me</div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer layout="row" class="footer layout-row">
+                <div>footer</div>    
+            </footer>
+        </div>
+        <script src="components/angular/angular.js"></script>
+        <script src="components/angular-material/angular-material.js"></script>
+        <script src="app.js"></script>
+        <script src="wikiaController.js"></script>
+        <script src="wikiaService.js"></script>
+    </body>
+</html>

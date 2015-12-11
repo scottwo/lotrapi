@@ -1,0 +1,52 @@
+body{
+    height: 1600px;
+}
+
+.container{
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+.site-title {
+    height: 25%;
+    background: grey;
+    text-align: center;
+}
+
+.explanation-box {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sub-heading {
+    text-align: center;
+}
+
+.apiDemoBox {
+    height: 45%;
+    background: green;
+}
+
+.apiExplanation {
+    height: 25%;
+    background: blue;
+    text-align: center;
+}
+
+h3 {
+    text-align: right
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer div {
+    margin: auto;
+    display: block;
+}
