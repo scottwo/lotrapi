@@ -1,18 +1,24 @@
 body{
-    height: 1600px;
+    height: 1920px;
+    background-color: antiquewhite;
 }
 
 .container{
     height: 100%;
 }
 
+header {
+    background-color: saddlebrown;
+    color: antiquewhite;
+}
+
 .content {
     height: 100%;
+    background-color: antiquewhite;
 }
 
 .site-title {
     height: 25%;
-    background: grey;
     text-align: center;
 }
 
@@ -27,12 +33,19 @@ body{
 
 .apiDemoBox {
     height: 45%;
-    background: green;
+}
+
+.responseBox {
+    border: 1px solid black;
+    height: 70%;
+    width: 55%;
+    display: block;
+    margin: 1em auto;
+    background: lightgrey;
 }
 
 .apiExplanation {
     height: 25%;
-    background: blue;
     text-align: center;
 }
 
@@ -44,6 +57,7 @@ footer {
     bottom: 0;
     position: absolute;
     width: 100%;
+    padding-top: 1em;
 }
 
 footer div {
