@@ -15,57 +15,48 @@
             <header layout="row" class="header">
                 <div flex="75">Logo</div>
                 <div flex="25">
-                    <div class="md-button md-raised">Home</div>
-                    <div class="md-button md-raised">Docs</div>
-                    <div class="md-button md-raised">About</div>
+                    <a ui-sref="home">
+                        <div class="md-button md-raised">Home</div>
+                    </a>
+                    <a ui-sref="docs">
+                        <div class="md-button md-raised">Docs</div>
+                    </a>
+                    <a ui-sref="about">
+                        <div class="md-button md-raised">About</div>
+                    </a>
                 </div>
             </header>
             <div class="content">
                 <div class="site-title">
-                    <h1 class="md-display-3">lotrapi: The Lord Of The Rings API!!!</h1>
+                    <h1 class="md-display-3">lotrapi: The Lord Of The Rings API</h1>
                     <h3 class="md-display-1 sub-heading">Your source for easily-accessible data from the greater Lord of the Rings universe</h3>
                 </div>
-                <div class="apiDemoBox">
-                    <div class="inputBox" layout="row">
-                        <h3 flex="25">http://api.lotrapi.com/</h3>
-                        <input placeholder="people/1" flex="50"/>
-                        <md-button class="md-button md-raised md-cornered" flex="10">Query API</md-button>
-                    </div>
-                    <div class="responseBox">
-                        <!--Demo response that actually reacts to how they change the input above-->
-                    </div>
-                </div>
-                <div class="apiExplanation" layout="row">
-                    <div flex="33" class="explanation-box">
-                        <div class="why">
-                            <div>Why?</div>
-                            <div class="boxText">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div flex="33" class="explanation-box">
-                        <div class="how">
-                            <div>How to use?</div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div flex="33" class="explanation-box">
-                        <div class="aboutme">
-                            <div>About me</div>
-                            <div></div>
-                        </div>
-                    </div>
+                <div class="ui-view-container">
+                    <section ui-view></section>
                 </div>
             </div>
-            <footer layout="row" class="footer">
-                <div>footer</div>    
+            <footer class="footer">
+                <div>
+                    <p>Scott Ogden 2015</p>
+                </div>
+                <div class="social-media-links">
+                    <div>Follow me on:</div>
+                    <div>
+                        <a href="https://www.github.com/scottwo" target="_blank">
+                            <img src="Images/github_icon.png" class="social-icon">
+                        </a>
+                    </div>
+                </div>    
             </footer>
         </div>
         <script src="components/angular/angular.js"></script>
         <script src="components/angular-material/angular-material.js"></script>
+        <script src="components/angular-ui-router/release/angular-ui-router.js"></script>
         <script src="app.js"></script>
         <script src="wikiaController.js"></script>
         <script src="wikiaService.js"></script>
+        <script src="Views/homeController.js"></script>
+        <script src="Views/docsController.js"></script>
+        <script src="Views/aboutController.js"></script>
     </body>
 </html>

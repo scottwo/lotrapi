@@ -1,10 +1,19 @@
+a.visited, a:hover, a, a div {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 body{
-    height: 1920px;
+    height: 800px;
     background-color: antiquewhite;
 }
 
 .container{
     height: 100%;
+}
+
+section{
+    margin-top: 20px;;
 }
 
 header {
@@ -18,7 +27,6 @@ header {
 }
 
 .site-title {
-    height: 10%;
     text-align: center;
 }
 
@@ -61,6 +69,19 @@ footer {
 }
 
 footer div {
-    margin: auto;
-    display: block;
+    display: inline-block;
+}
+
+.social-media-links {
+    right: 0;
+    position: relative;
+    float: right;
+}
+
+.social-media-links a, .social-media-links div {
+    display: inline-block;
+}
+
+.social-icon {
+    height: 24px;
 }
