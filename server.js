@@ -9,6 +9,6 @@ app.get('/', function(req, res){
 
 });
 
-app.listen('3001', function(){
-    console.log('Server running on localhost:3001')
+app.listen('80', function(){
+    console.log('Server running on port 80')
 })
