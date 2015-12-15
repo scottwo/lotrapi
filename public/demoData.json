@@ -1,0 +1,210 @@
+{
+    "characters": [
+        {
+            "name": "Arwen",
+            "otherNames": ["Undómiel", "Evenstar"],
+            "titles": ["Lady of Rivendell","Queen of the Reunited Kingdom"],
+            "race": "Half-Elf",
+            "spouse": "Aragorn II Elessar",
+            "birth": "TA 241",
+            "death": "FO 121",
+            "weapons": [],
+            "gender" : "female",
+            "hair" : "dark",
+            "eyes": "grey",
+            "height": "",
+            "groups": ["Elves of Rivendell", "People of the Reunited Kingdom"],
+            "companions": []
+        },
+        {
+            "name": "",
+            "otherNames": [""],
+            "titles": ["",""],
+            "race": "",
+            "spouse": "",
+            "birth": "",
+            "death": "",
+            "weapons": [],
+            "gender" : "",
+            "hair" : "",
+            "eyes": "",
+            "height": "",
+            "groups": [],
+            "companions": []
+        },
+        {
+            "name": "",
+            "otherNames": [""],
+            "titles": ["",""],
+            "race": "",
+            "spouse": "",
+            "birth": "",
+            "death": "",
+            "weapons": [],
+            "gender" : "",
+            "hair" : "",
+            "eyes": "",
+            "height": "",
+            "groups": [],
+            "companions": []
+        },
+        {
+            "name": "",
+            "otherNames": [""],
+            "titles": ["",""],
+            "race": "",
+            "spouse": "",
+            "birth": "",
+            "death": "",
+            "weapons": [],
+            "gender" : "",
+            "hair" : "",
+            "eyes": "",
+            "height": "",
+            "groups": [],
+            "companions": []
+        },
+        {
+            "name": "",
+            "otherNames": [""],
+            "titles": ["",""],
+            "race": "",
+            "spouse": "",
+            "birth": "",
+            "death": "",
+            "weapons": [],
+            "gender" : "",
+            "hair" : "",
+            "eyes": "",
+            "height": "",
+            "groups": [],
+            "companions": []
+        },
+        {
+            "name": "",
+            "otherNames": [""],
+            "titles": ["",""],
+            "race": "",
+            "spouse": "",
+            "birth": "",
+            "death": "",
+            "weapons": [],
+            "gender" : "",
+            "hair" : "",
+            "eyes": "",
+            "height": "",
+            "groups": [],
+            "companions": []
+        }
+        
+    ],
+    
+    "races": {
+        "elves": {
+            "origin": "",
+            "height": "",
+            "description": "",
+            "characteristics": "",
+            "enemies": [""],
+            "subgroups": [""],
+            "notables": [""],
+            "habitats": [""]
+        },
+        "dwarves": {},
+        "valar": {},
+        "maiar": {},
+        "men": {},
+        "halfelves": {},
+        "hobbits": {}
+    },
+    
+    "monsters": [
+        {
+            "name": "orcs",
+            "description": "",
+            "origin": "",
+            "notables": "",
+            "habitats": []
+        },
+    ],
+    
+    "places" : [
+        {
+            "name": "",
+            "otherNames": [""],
+            "nearbyPlaces": [""],
+            "established": "",
+            "destroyed": "",
+            "events": [""]
+        },
+        
+    ],
+    
+    "events": {
+        "firstAge": [],
+        "secondAge": [],
+        "thirdAge": [],
+        "fourthAge": []
+    },
+    
+    "weapons" : [
+        {
+            "name": "",
+            "otherNames": [""],
+            "description": "",
+            "creator": "",
+            "created": "",
+            "destroyer": "",
+            "destroyed": "",
+            "notableKills": [""],
+            "notableWielders": [""]
+        },
+        
+    ],
+    
+    "armor" : [
+        {
+            "name": "",
+            "otherNames": [""],
+            "description": "",
+            "creator": "",
+            "created": "",
+            "destroyer": "",
+            "destroyed": "",
+            "notableWielders": [""]
+        },
+        
+    ],
+    
+    "relics" : [
+        {
+            "name": "",
+            "otherNames": [""],
+            "description": "",
+            "creator": "",
+            "created": "",
+            "destroyer": "",
+            "destroyed": "",
+            "notableWielders": [""]
+        },
+    ],
+    
+    "media" : {
+        "film" : [
+            {
+                "title": "",
+                "year": "",
+                "description": "",
+                "director": "",
+                "notableCast": ""
+            },
+        ],
+        "print" : [
+            {
+                "title": "",
+                "year": "",
+                "description": ""
+            },
+        ]
+    }
+}
